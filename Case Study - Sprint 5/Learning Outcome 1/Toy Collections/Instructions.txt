@@ -1,0 +1,13 @@
+DESCRIPTION
+Create a TestToy class with the methods displayToys addToys(Toy toy) which will add the toy the toy to a HashSet variable toysSet. (Set will allow only unique values, toy should be validated against toyId and toyName )
+
+
+
+
+
+Create a TestCustomer class with the methods displayCustomers() addCustomer(Customer customer,Toy toy) which will add the customer object to a TreeMap variable customerMap where customer is the key and toy is value.
+
+
+
+Note: use the same structure for Toy and Customer class as per the given template
+﻿
