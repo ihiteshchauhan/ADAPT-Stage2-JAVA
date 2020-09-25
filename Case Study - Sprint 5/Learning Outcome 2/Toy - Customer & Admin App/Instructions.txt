@@ -1,0 +1,68 @@
+DESCRIPTION
+
+
+Create all the classes as per the given structure and perform all the operations on Customer Admin and Toys data as given in the case study. create the respective interface and service classes for the object such as CustomerService ,
+
+CustomerServiceImpl, AdminService and AdminServiceImpl
+
+
+
+create static ArrayList with the name customerList in CustomerServiceImpl
+
+
+
+CustomerService
+
+void createCustomer(Customer customer)
+List<Customer> getCustomers()
+boolean updateCustomer(Customer customer)
+Customer searchCustomer(int customerId)
+List serarchCustomer(String customerName)
+boolean deleteCustomer(int customerId)
+boolean validateCustomer(String email,String password)
+writeCustomer() (write the list object to a file)
+List<Customer> readCustomer() (read the list object from a File)
+void rent(int toyId) (this method should add the toy to a list variable availedToys also validate the toy exist with same id in toysList of AdminServiceImpl otherwise throw ToysNotFoundException)
+
+
+create static ArrayList variables adminList and toysList in AdminServiceImpl
+
+AdminService
+
+void addToys(Toy toy)
+boolean updateToys(Toy toy)
+boolean validateAdmin(String email,String password)
+writeToy()
+List<Toy> readToy()
+
+
+
+
+Use the List to store and retrieve the data and needs to be persisted on a file called customer.txt and toys.txt.
+
+
+
+User must be validate and can choose the options based on the role as given below.
+
+
+
+Customer can update profile , rent a toy (customer must be provided with available toys from the List)and Rented Details(Toys Rented by the Customer)
+
+Admin can add toys ,update toys and delete toys
+
+1.Customer
+
+2.Admin
+
+
+
+Sample Input 1
+1
+raj@gamil.com
+xxxxxxxxxxxxxxxx
+
+Sample output 1
+
+1.Update Profile
+2.Rent Toy
+3.Rental Details
