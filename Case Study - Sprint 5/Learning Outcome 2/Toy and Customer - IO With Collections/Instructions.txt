@@ -1,0 +1,70 @@
+DESCRIPTION
+1.      Modify/create the ServiceImpl of Admin and customer and store the information on a file (serialize the object and store in a file)
+
+
+
+create a static List for customers and toys which should be public and named as customerList and toysList
+create the writecustomer() method to store customerList and readCustomer() method to get the customerList from the file and the file should be named as customer.txt
+create the writeToys() method to store toysList and readToys() method to get the toysList from the file and the file should be named as toys.txt
+read method of customer and toy should return the respective List.
+
+
+
+
+
+
+Note: Customer and Toy class should be created as per the given structure
+
+Don't create objects in ServiceImpl class constructors
+
+
+
+
+
+
+
+
+get the input from the user to perform the operations as below.
+
+
+
+Register Customer
+Display Customer
+Add Toys
+Display Toys
+
+
+Sample Input 1
+1
+100
+Aryan
+xxxxxxxx
+Bangalore
+ar@yahoo.com
+Sample output 1
+Successfully Registerd
+Sample Input 2
+3
+1005
+Skodran Rocket
+Electronic
+5
+12
+500
+10
+30
+500
+Sample output 2
+Toy added Successfully 
+Sample Input 3
+2
+Sample Output 3
+Name : Aryan			City: Bangalore
+Name: Manzoor	City: Bangalore
+Name: Raj					City: Chennai
+Sample input 4
+4
+Sample Output 4
+Toy Name:  Rubber Ducky		Rent: 20 
+Toy Name:   Remote Car			Rent: 10
+Toy Name:   Skodran Rocket  Rent: 30
